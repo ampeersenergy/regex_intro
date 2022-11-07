@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ae-core-template-python"
+version = "0.1.0"
+description = ""
+authors = ["Anton Cyrol <a.cyrol@ampeersenergy.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = {version = "^1.9.1", extras = ["dotenv"]}
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+pytest = "^7.2.0"
+ipykernel = "^6.16.2"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
