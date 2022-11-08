@@ -7,6 +7,8 @@ authors = ["Anton Cyrol <a.cyrol@ampeersenergy.de>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 pydantic = {version = "^1.9.1", extras = ["dotenv"]}
+jupyter = "^1.0.0"
+regex = "^2022.10.31"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"

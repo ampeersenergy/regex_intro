@@ -1,4 +1,4 @@
-from ae_core_template_python import __version__
+from regex_intro import __version__
 
 
 def test_version():
