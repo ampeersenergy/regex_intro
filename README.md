@@ -18,7 +18,8 @@ Lastly start jupyter using
 jupyter notebook
 ```
 
-## Tools
+## Goodies
 
 [Tool zum testen für Regex](https://regex101.com/)
+
 [Cheat sheet](https://quickref.me/regex)
