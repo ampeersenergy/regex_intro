@@ -8,3 +8,12 @@ After cloning the repo, run
 ```
 poetry install
 ```
+then activate the shell
+```
+poetry shell
+```
+
+Lastly start jupyter using
+```
+jupyter notebook
+```
